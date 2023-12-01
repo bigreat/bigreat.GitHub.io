@@ -1,0 +1,25 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Posts on Bigreat</title>
+        <link>https://example.org/posts/</link>
+        <description>Recent content in Posts on Bigreat</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en</language>
+        <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
+        <lastBuildDate>Fri, 01 Dec 2023 13:41:16 +0800</lastBuildDate>
+        <atom:link href="https://example.org/posts/index.xml" rel="self" type="application/rss+xml" />
+        
+        <item>
+            <title>FirstPost</title>
+            <link>https://example.org/posts/firstpost/</link>
+            <pubDate>Fri, 01 Dec 2023 13:41:16 +0800</pubDate>
+            
+            <guid>https://example.org/posts/firstpost/</guid>
+            <description>FirstPost print(&amp;#34;Hello World!&amp;#34;) </description>
+            <content type="html"><![CDATA[<h2 id="firstpost">FirstPost</h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-lua" data-lang="lua"><span style="display:flex;"><span>print(<span style="color:#e6db74">&#34;Hello World!&#34;</span>)
+</span></span></code></pre></div>]]></content>
+        </item>
+        
+    </channel>
+</rss>

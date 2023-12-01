@@ -1,0 +1,80 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'My New Hugo Site'
+theme = "hello-friend-ng"
+paginate = 20
+rssLimit = 10                    # Maximum number of items in the RSS feed.
+
+archetypeDir = "archetypes"
+contentDir = "content"
+dataDir = "data"
+layoutDir = "layouts"
+publishDir = "public"
+[params]
+dateform = "Jan 2, 2006"
+dateformShort = "Jan 2"
+dateformNum = "2006-01-02"
+dateformNumTime = "2006-01-02 15:04"
+
+# Subtitle for home
+homeSubtitle = "Staring from now"
+
+# Set disableReadOtherPosts to true in order to hide the links to other posts.
+disableReadOtherPosts = false
+
+# Enable sharing buttons, if you like
+enableSharingButtons = true
+
+# Show a global language switcher in the navigation bar
+enableGlobalLanguageMenu = true
+
+# Metadata mostly used in document's head
+description = "My new homepage or blog"
+keywords = "homepage, blog"
+images = [""]
+
+[taxonomies]
+category = "blog"
+tag = "tags"
+series = "series"
+
+[[params.social]]
+name = "email"
+url = "bigreatbin@gmail.com"
+
+[[params.social]]
+name = "github"
+url = "https://github.com/bigreat"
+
+[[params.social]]
+name = "linkedin"
+url = "https://www.linkedin.com/in/gray-yang-9ab0ab208/"
+
+[languages]
+[languages.en]
+title = "Bigreat"
+keywords = ""
+copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
+readOtherPosts = "Read other posts"
+
+[languages.en.params]
+subtitle = "Staring from now"
+
+[languages.en.params.logo]
+logoText = "Bigreat"
+logoHomeLink = "/posts"
+# or
+#
+# path = "/img/your-example-logo.svg"
+# alt = "Your example logo alt text"
+
+# And you can even create generic menu
+[menu]
+[[menu.main]]
+identifier = "about"
+name = "About"
+url = "about/"
+[[menu.main]]
+identifier = "blog"
+name = "Blog"
+url = "posts/"
