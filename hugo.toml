@@ -40,11 +40,7 @@ series = "series"
 
 [[params.social]]
 name = "twitter"
-url = "https://twitter.com/"
-
-[[params.social]]
-name = "email"
-url = "bigreatbin@gmail.com"
+url = "https://twitter.com/Bigreatbin"
 
 [[params.social]]
 name = "github"
@@ -66,7 +62,7 @@ subtitle = "Staring from now"
 
 [languages.en.params.logo]
 logoText = "Bigreat"
-logoHomeLink = "/posts"
+logoHomeLink = "/"
 # or
 #
 # path = "/img/your-example-logo.svg"
